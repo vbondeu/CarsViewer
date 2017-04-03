@@ -1,21 +1,20 @@
 source "https://github.com/CocoaPods/Old-Specs"
-platform :ios, ‘8.0’
+platform :ios, ‘9.0’
 inhibit_all_warnings!
 use_frameworks!
 
 target ‘BVCarSharing’ do
 # Networking
 	pod 'Alamofire'
-    	pod 'AlamofireImage'
-	pod ‘Alamofire-Decodable’
+    pod 'AlamofireImage', '~> 3.1'
 # DB
-	pod ’Realm’
-	pod ‘RealmSwift’
-# UI
-	pod 'MBProgressHUD', '~> 0.8'
-	pod 'SVPullToRefresh', '~> 0.4.1'
+	pod 'Realm'
+	pod 'RealmSwift'
+# Map Kit
+    pod 'GoogleMaps'
 # Sugar
 	pod 'SwiftyUserDefaults'
+    pod 'PromiseKit', '~> 4.0'
 end
 
 target 'BVCarSharingTests' do
