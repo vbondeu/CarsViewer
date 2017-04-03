@@ -1,0 +1,6 @@
+framework module Pods_BVCarSharingTests {
+  umbrella header "Pods-BVCarSharingTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

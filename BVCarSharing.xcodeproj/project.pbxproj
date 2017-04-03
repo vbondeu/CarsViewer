@@ -15,6 +15,8 @@
 		18773D881E92603A00B3F8A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18773D861E92603A00B3F8A2 /* LaunchScreen.storyboard */; };
 		18773D931E92603A00B3F8A2 /* BVCarSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18773D921E92603A00B3F8A2 /* BVCarSharingTests.swift */; };
 		18773D9E1E92603A00B3F8A2 /* BVCarSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18773D9D1E92603A00B3F8A2 /* BVCarSharingUITests.swift */; };
+		8D7FCEB14BAB05C7476461A9 /* Pods_BVCarSharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1B9C46CD87E8A7C8A5DD58B /* Pods_BVCarSharingTests.framework */; };
+		F170E0AF94D2FE7DFAB00514 /* Pods_BVCarSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5751F37D7DA6EDFDFF2CBC40 /* Pods_BVCarSharing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,12 @@
 		18773D991E92603A00B3F8A2 /* BVCarSharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BVCarSharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18773D9D1E92603A00B3F8A2 /* BVCarSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BVCarSharingUITests.swift; sourceTree = "<group>"; };
 		18773D9F1E92603A00B3F8A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6741E3169B4401A4D878AA /* Pods-BVCarSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVCarSharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BVCarSharing/Pods-BVCarSharing.debug.xcconfig"; sourceTree = "<group>"; };
+		412C19845966CA185EBDD6ED /* Pods-BVCarSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVCarSharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-BVCarSharing/Pods-BVCarSharing.release.xcconfig"; sourceTree = "<group>"; };
+		420AC7FCD200C0C1C16C4409 /* Pods-BVCarSharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVCarSharingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BVCarSharingTests/Pods-BVCarSharingTests.release.xcconfig"; sourceTree = "<group>"; };
+		5751F37D7DA6EDFDFF2CBC40 /* Pods_BVCarSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BVCarSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E86B168CBAA7AF0917F2A8A /* Pods-BVCarSharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BVCarSharingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BVCarSharingTests/Pods-BVCarSharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B9C46CD87E8A7C8A5DD58B /* Pods_BVCarSharingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BVCarSharingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F170E0AF94D2FE7DFAB00514 /* Pods_BVCarSharing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7FCEB14BAB05C7476461A9 /* Pods_BVCarSharingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		014159EBA8207281BBBA9C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5751F37D7DA6EDFDFF2CBC40 /* Pods_BVCarSharing.framework */,
+				F1B9C46CD87E8A7C8A5DD58B /* Pods_BVCarSharingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		18773D6F1E92603900B3F8A2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +102,8 @@
 				18773D911E92603A00B3F8A2 /* BVCarSharingTests */,
 				18773D9C1E92603A00B3F8A2 /* BVCarSharingUITests */,
 				18773D791E92603A00B3F8A2 /* Products */,
+				E53083D741EE8EBC705C3AEA /* Pods */,
+				014159EBA8207281BBBA9C9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +149,17 @@
 			path = BVCarSharingUITests;
 			sourceTree = "<group>";
 		};
+		E53083D741EE8EBC705C3AEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B6741E3169B4401A4D878AA /* Pods-BVCarSharing.debug.xcconfig */,
+				412C19845966CA185EBDD6ED /* Pods-BVCarSharing.release.xcconfig */,
+				5E86B168CBAA7AF0917F2A8A /* Pods-BVCarSharingTests.debug.xcconfig */,
+				420AC7FCD200C0C1C16C4409 /* Pods-BVCarSharingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18773DA21E92603A00B3F8A2 /* Build configuration list for PBXNativeTarget "BVCarSharing" */;
 			buildPhases = (
+				7B83405C1E64F8029FADEC90 /* [CP] Check Pods Manifest.lock */,
 				18773D741E92603900B3F8A2 /* Sources */,
 				18773D751E92603900B3F8A2 /* Frameworks */,
 				18773D761E92603900B3F8A2 /* Resources */,
+				6BA1A3C43DFCDB917A0026C1 /* [CP] Embed Pods Frameworks */,
+				FBEB714EDED50CC2A53DDBF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18773DA51E92603A00B3F8A2 /* Build configuration list for PBXNativeTarget "BVCarSharingTests" */;
 			buildPhases = (
+				1ACC02E3B91872D302501F88 /* [CP] Check Pods Manifest.lock */,
 				18773D8A1E92603A00B3F8A2 /* Sources */,
 				18773D8B1E92603A00B3F8A2 /* Frameworks */,
 				18773D8C1E92603A00B3F8A2 /* Resources */,
+				29675505FC468F3AB6AEF025 /* [CP] Embed Pods Frameworks */,
+				6652D513DD41B8AAB2B04F10 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +297,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ACC02E3B91872D302501F88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		29675505FC468F3AB6AEF025 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BVCarSharingTests/Pods-BVCarSharingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6652D513DD41B8AAB2B04F10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BVCarSharingTests/Pods-BVCarSharingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BA1A3C43DFCDB917A0026C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BVCarSharing/Pods-BVCarSharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B83405C1E64F8029FADEC90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBEB714EDED50CC2A53DDBF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BVCarSharing/Pods-BVCarSharing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18773D741E92603900B3F8A2 /* Sources */ = {
@@ -415,6 +546,7 @@
 		};
 		18773DA31E92603A00B3F8A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B6741E3169B4401A4D878AA /* Pods-BVCarSharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DX6GZ992LT;
@@ -428,6 +560,7 @@
 		};
 		18773DA41E92603A00B3F8A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 412C19845966CA185EBDD6ED /* Pods-BVCarSharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DX6GZ992LT;
@@ -441,6 +574,7 @@
 		};
 		18773DA61E92603A00B3F8A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E86B168CBAA7AF0917F2A8A /* Pods-BVCarSharingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +590,7 @@
 		};
 		18773DA71E92603A00B3F8A2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420AC7FCD200C0C1C16C4409 /* Pods-BVCarSharingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

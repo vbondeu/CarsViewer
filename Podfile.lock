@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (3.5.1)
+  - Alamofire-Decodable (1.0.1):
+    - Alamofire (~> 3.3)
+    - Decodable (~> 0.4.2)
+  - AlamofireImage (2.5.0):
+    - Alamofire (~> 3.5)
+  - Decodable (0.4.3)
+  - Kiwi (2.4.0)
+  - MBProgressHUD (0.9.2)
+  - OCHamcrest (3.0.1)
+  - OCMockito (1.1.0):
+    - OCHamcrest (~> 3.0)
+  - Realm (2.0.3):
+    - Realm/Headers (= 2.0.3)
+  - Realm/Headers (2.0.3)
+  - RealmSwift (2.0.3):
+    - Realm (= 2.0.3)
+  - SVPullToRefresh (0.4.1)
+  - SwiftyUserDefaults (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Alamofire-Decodable
+  - AlamofireImage
+  - Kiwi
+  - MBProgressHUD (~> 0.8)
+  - OCHamcrest (~> 3.0.0)
+  - OCMockito (~> 1.1.0)
+  - Realm
+  - RealmSwift
+  - SVPullToRefresh (~> 0.4.1)
+  - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  Alamofire-Decodable: a580f93cd6bd8fd1663b62627f69f16d5a7270c3
+  AlamofireImage: 2d34936e5201270bb17a316a786e90e83b4a249d
+  Decodable: ab6c7d02a5df949d3ab16b2696528a3241e37c76
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  OCHamcrest: e19857683e4eefab64b878668eac04c2f4567118
+  OCMockito: 9f1dd30cb7dde32c5ff2dffc5fc4df996d7bdefc
+  Realm: 5f008bfe3c8c47142eddfc30b8c1584cde22db24
+  RealmSwift: 5afb451f65b682242f272dbb52d5c6f6e343c980
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+
+PODFILE CHECKSUM: 3e83e5b306985c6b88488edc7fa574072687e94c
+
+COCOAPODS: 1.2.0
