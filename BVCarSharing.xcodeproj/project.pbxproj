@@ -24,6 +24,7 @@
 		182DB87E1E92A95300159CEA /* CarsMapWireframeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DB87D1E92A95300159CEA /* CarsMapWireframeProtocol.swift */; };
 		182DB8801E92A98700159CEA /* CarsMapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DB87F1E92A98700159CEA /* CarsMapPresenter.swift */; };
 		182DB8821E92A99B00159CEA /* CarsMapPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182DB8811E92A99B00159CEA /* CarsMapPresenterProtocol.swift */; };
+		18393C581E963043004977B7 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 18393C571E963043004977B7 /* README.md */; };
 		18773D7C1E92603A00B3F8A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18773D7B1E92603A00B3F8A2 /* AppDelegate.swift */; };
 		18773D831E92603A00B3F8A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18773D811E92603A00B3F8A2 /* Main.storyboard */; };
 		18773D851E92603A00B3F8A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18773D841E92603A00B3F8A2 /* Assets.xcassets */; };
@@ -100,6 +101,7 @@
 		182DB87D1E92A95300159CEA /* CarsMapWireframeProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarsMapWireframeProtocol.swift; path = Modules/CarsMap/CarsMapWireframeProtocol.swift; sourceTree = "<group>"; };
 		182DB87F1E92A98700159CEA /* CarsMapPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarsMapPresenter.swift; path = Modules/CarsMap/CarsMapPresenter.swift; sourceTree = "<group>"; };
 		182DB8811E92A99B00159CEA /* CarsMapPresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarsMapPresenterProtocol.swift; path = Modules/CarsMap/CarsMapPresenterProtocol.swift; sourceTree = "<group>"; };
+		18393C571E963043004977B7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		18773D781E92603A00B3F8A2 /* BVCarSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BVCarSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18773D7B1E92603A00B3F8A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18773D821E92603A00B3F8A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				18773DAB1E927D6000B3F8A2 /* Common */,
 				18773D841E92603A00B3F8A2 /* Assets.xcassets */,
 				18773D891E92603A00B3F8A2 /* Info.plist */,
+				18393C571E963043004977B7 /* README.md */,
 			);
 			path = BVCarSharing;
 			sourceTree = "<group>";
@@ -618,6 +621,7 @@
 				18814B231E94DE3300AD4208 /* CarsMapViewControllerProtocol.swift in Sources */,
 				18773DBD1E927ECB00B3F8A2 /* AppDependencies.swift in Sources */,
 				182DB8761E92A8E100159CEA /* CarsListPresenterProtocol.swift in Sources */,
+				18393C581E963043004977B7 /* README.md in Sources */,
 				18814B1F1E94CF3200AD4208 /* CarsListTableViewControllerProtocol.swift in Sources */,
 				18814B211E94D5BF00AD4208 /* AlertController.swift in Sources */,
 				182DB8821E92A99B00159CEA /* CarsMapPresenterProtocol.swift in Sources */,
