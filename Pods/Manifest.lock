@@ -1,58 +1,39 @@
 PODS:
-  - Alamofire (4.0.1)
-  - AlamofireImage (3.1.0):
-    - Alamofire (~> 4.0)
-  - GoogleMaps (2.1.1):
-    - GoogleMaps/Maps (= 2.1.1)
-  - GoogleMaps/Base (2.1.1)
-  - GoogleMaps/Maps (2.1.1):
+  - Alamofire (4.4.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - AlamofireObjectMapper (4.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 2.0)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
     - GoogleMaps/Base
-  - Kiwi (2.4.0)
-  - OCHamcrest (3.0.1)
-  - OCMockito (1.1.0):
-    - OCHamcrest (~> 3.0)
-  - PromiseKit (4.0.4):
-    - PromiseKit/Foundation (= 4.0.4)
-    - PromiseKit/QuartzCore (= 4.0.4)
-    - PromiseKit/UIKit (= 4.0.4)
-  - PromiseKit/CorePromise (4.0.4)
-  - PromiseKit/Foundation (4.0.4):
-    - PromiseKit/CorePromise
-  - PromiseKit/QuartzCore (4.0.4):
-    - PromiseKit/CorePromise
-  - PromiseKit/UIKit (4.0.4):
-    - PromiseKit/CorePromise
-  - Realm (2.0.3):
-    - Realm/Headers (= 2.0.3)
-  - Realm/Headers (2.0.3)
-  - RealmSwift (2.0.3):
-    - Realm (= 2.0.3)
-  - SwiftyUserDefaults (3.0.0)
+  - ObjectMapper (2.2.5)
+  - Realm (2.4.3):
+    - Realm/Headers (= 2.4.3)
+  - Realm/Headers (2.4.3)
+  - RealmSwift (2.4.3):
+    - Realm (= 2.4.3)
 
 DEPENDENCIES:
   - Alamofire
   - AlamofireImage (~> 3.1)
+  - AlamofireObjectMapper (~> 4.0)
   - GoogleMaps
-  - Kiwi
-  - OCHamcrest (~> 3.0.0)
-  - OCMockito (~> 1.1.0)
-  - PromiseKit (~> 4.0)
   - Realm
   - RealmSwift
-  - SwiftyUserDefaults
 
 SPEC CHECKSUMS:
-  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
-  AlamofireImage: bb8c8351c51cb1633bb6be69b6dbbaff37ce65b7
-  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
-  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
-  OCHamcrest: e19857683e4eefab64b878668eac04c2f4567118
-  OCMockito: 9f1dd30cb7dde32c5ff2dffc5fc4df996d7bdefc
-  PromiseKit: 8e8ee39d33ff199d92a1a883b5396f6285be6c91
-  Realm: 5f008bfe3c8c47142eddfc30b8c1584cde22db24
-  RealmSwift: 5afb451f65b682242f272dbb52d5c6f6e343c980
-  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  AlamofireObjectMapper: 435adc82f5b367679bd9e71c4974a54efd0b2521
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  ObjectMapper: fb30f71e08470d1e5a20b199fafe1246281db898
+  Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
+  RealmSwift: 30d49739ccb3385d201242736ca4dda56aec9dfc
 
-PODFILE CHECKSUM: 874eaa1d3a84ece9dc209a6c64693ab0a09ced14
+PODFILE CHECKSUM: f02402c77d7db0cd94a48810337af96f6591f355
 
 COCOAPODS: 1.2.0

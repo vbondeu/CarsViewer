@@ -7,7 +7,8 @@
 //
 
 import UIKit
+import Foundation
 
-class CarsListWireframeProtocol: NSObject {
+protocol CarsListWireframeProtocol {
 
 }

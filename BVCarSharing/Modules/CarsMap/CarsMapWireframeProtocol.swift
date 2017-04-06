@@ -7,7 +7,10 @@
 //
 
 import UIKit
+@testable import BVCarSharing
 
-class CarsMapWireframeProtocol: NSObject {
-
+protocol CarsMapWireframeProtocol {
+    func presentCarsMapViewControllerInWindow(window : UIWindow)
+    func showCarOnMap(car : Car)
 }
+

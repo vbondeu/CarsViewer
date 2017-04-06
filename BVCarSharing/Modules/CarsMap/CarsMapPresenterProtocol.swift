@@ -7,7 +7,14 @@
 //
 
 import UIKit
+import Foundation
+import RealmSwift
+@testable import BVCarSharing
 
-class CarsMapPresenterProtocol: NSObject {
-
+protocol CarsMapPresenterProtocol {
+    func presentCarsListViewController()
+    func updateView()
+    func updateCarsList()
+    func didLoadItems(cars: Results<Car>)
+    func errorCarsLoad(error: Error)
 }

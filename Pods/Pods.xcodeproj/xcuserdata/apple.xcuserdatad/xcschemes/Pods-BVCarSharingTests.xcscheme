@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "960D45EE99B21807BFBE8CA18734AC65"
+               BlueprintIdentifier = "DD9D65C8679C95EC2D272241CAE9E356"
                BuildableName = "Pods_BVCarSharingTests.framework"
                BlueprintName = "Pods-BVCarSharingTests"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,9 +26,16 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "NO">
       <Testables>
       </Testables>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "960D45EE99B21807BFBE8CA18734AC65"
+            BlueprintIdentifier = "DD9D65C8679C95EC2D272241CAE9E356"
             BuildableName = "Pods_BVCarSharingTests.framework"
             BlueprintName = "Pods-BVCarSharingTests"
             ReferencedContainer = "container:Pods.xcodeproj">

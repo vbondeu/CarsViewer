@@ -6,8 +6,8 @@
 //  Copyright © 2017 VBond. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class CarsListInteractorProtocol: NSObject {
-
+protocol CarsListInteractorProtocol {
+    func loadCars()
 }

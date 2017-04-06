@@ -12,10 +12,10 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    let appDependies = AppDependencies()
+    let appDependencies = AppDependencies()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        return self.appDependies.installRootViewControllerIntoWindow(window: self.window!)
+        return self.appDependencies.installRootViewControllerIntoWindow(window: self.window!)
     }
 
 }
