@@ -44,15 +44,15 @@ class BVAppDelegateTest: XCTestCase {
     }
     
     func testMakesViewControllerRootViewController() {
-        self.appDidFinishLaunchingWithOptions()
+        XCTAssertTrue(self.appDidFinishLaunchingWithOptions())
         guard let _ = self.testObj.window?.rootViewController as? UINavigationController else {
             XCTFail()
             return
         }
     }
 
-    func appDidFinishLaunchingWithOptions() {
-        self.testObj.appDependencies.installRootViewControllerIntoWindow(window: self.testObj.window!)
+    func appDidFinishLaunchingWithOptions() -> Bool {
+        return self.testObj.appDependencies.installRootViewControllerIntoWindow(window: self.testObj.window!)
     }
     
 }

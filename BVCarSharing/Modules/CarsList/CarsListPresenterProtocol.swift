@@ -9,7 +9,7 @@
 import UIKit
 import Foundation
 import RealmSwift
-import BVCarSharing
+@testable import BVCarSharing
 
 protocol CarsListPresenterProtocol {
     func updateView()

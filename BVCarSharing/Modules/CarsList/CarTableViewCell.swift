@@ -36,10 +36,7 @@ class CarTableViewCell: UITableViewCell {
         self.carsIdLabel.text = car.carId
         self.colorLabel.text = car.color
         self.fuelLabel.text = car.fuelType
-        
-        if let fuelLevel = String(car.fuelLevel) as? String {
-            self.fuelLabel.text = self.fuelLabel.text! + "  fuel level: " + fuelLevel
-        }
+        self.fuelLabel.text = self.fuelLabel.text! + "  fuel level: " + Int(car.fuelLevel * 100).description + "%"
             
         if let imageUrl = car.imageUrl(),
             let url =  URL(string: imageUrl) {

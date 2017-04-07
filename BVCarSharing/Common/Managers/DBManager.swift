@@ -12,6 +12,7 @@ import RealmSwift
 class DBManager: NSObject {
     
     static let sharedInstance = DBManager()
+    var dbInstance : Realm?
     
     override init() {
         super.init()
@@ -27,22 +28,22 @@ class DBManager: NSObject {
         if let db = Bundle.main.path(forResource: "RealmCarsSharing", ofType: "realm") {
             try! fileManager.copyItem(atPath: db, toPath: filePath)
         }
-    }
-    
-    func getObjects<T: Object>(objectClass: T.Type) -> Results<T> {
+        
         do {
-            let realm = try! Realm()
-            return realm.objects(objectClass)
+            self.dbInstance = try Realm()
         } catch {
-            print("It failed to read objects")
+            print("It failed")
         }
     }
     
+    func getObjects<T: Object>(objectClass: T.Type) -> Results<T>? {
+        return self.dbInstance?.objects(objectClass)
+    }
+    
     func insert<T: Object>(object: T){
-        let realm = try! Realm()
         do {
-            try realm.write{
-                realm.add(object)
+            try self.dbInstance?.write{
+                self.dbInstance?.add(object)
             }
         } catch {
             print("It failed to write object", object)
@@ -51,38 +52,11 @@ class DBManager: NSObject {
     
     func insertOrUpdate<T: Object>(object: T){
         do {
-            let realm = try! Realm()
-            try realm.write{
-                realm.add(object, update: true)
+            try self.dbInstance?.write{
+                self.dbInstance?.add(object, update: true)
             }
         } catch {
             print("It failed to write object", object)
         }
     }
-    
-    func removeObject<T: Object>(object: T) {
-        self.performWithinTransaction() {
-            let realm = try! Realm()
-            realm.delete(object)
-        }
-    }
-    
-    func removeAllObject(update: @escaping (() -> ())) {
-        self.performWithinTransaction() {
-            let realm = try! Realm()
-            realm.deleteAll()
-            DispatchQueue.main.async  {
-                update()
-            }
-        }
-    }
-    
-    private func performWithinTransaction(action: () -> Void) {
-        do {
-            action()
-        } catch {
-            print("It failed to perform transaction")
-        }
-    }
-
 }

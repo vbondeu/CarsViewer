@@ -20,8 +20,9 @@ class CarsListInteractor: NSObject, CarsListInteractorProtocol {
     }
     
     func loadCars() {
-        let carsList = DBManager.sharedInstance.getObjects(objectClass: Car.self).sorted(byKeyPath: "name", ascending: true)
-        self.presenter?.didLoadItems(cars: carsList)
+        if let carsList = DBManager.sharedInstance.getObjects(objectClass: Car.self)?.sorted(byKeyPath: "name", ascending: true) {
+            self.presenter?.didLoadItems(cars: carsList)
+        }
         
         HTTPManager.API().requestCars(success: { (response) in
                 guard let cars = response.object as? [Car] else {
