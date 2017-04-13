@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2F5622F3B18DF497981AB58C6D1FC72F"
-               BuildableName = "ObjectMapper.framework"
-               BlueprintName = "ObjectMapper"
+               BlueprintIdentifier = "DD9D65C8679C95EC2D272241CAE9E356"
+               BuildableName = "Pods_BVCarSharingTests.framework"
+               BlueprintName = "Pods-BVCarSharingTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2F5622F3B18DF497981AB58C6D1FC72F"
-            BuildableName = "ObjectMapper.framework"
-            BlueprintName = "ObjectMapper"
+            BlueprintIdentifier = "DD9D65C8679C95EC2D272241CAE9E356"
+            BuildableName = "Pods_BVCarSharingTests.framework"
+            BlueprintName = "Pods-BVCarSharingTests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -60,15 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2F5622F3B18DF497981AB58C6D1FC72F"
-            BuildableName = "ObjectMapper.framework"
-            BlueprintName = "ObjectMapper"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
