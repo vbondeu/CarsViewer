@@ -8,19 +8,17 @@ VIPER
 
 VIPER is an approach to iOS application architecture, which stands for:
 
- Routing (Wireframe)
+  Routing (Wireframe)
  
- View (ViewController)
+  View (ViewController)
  
- Presenter (Presentation)
+  Presenter (Presentation)
  
- Interactor (Domain or Use cases)
+  Interactor (Domain or Use cases)
  
- Entity (Data)
+  Entity (Data)
  
 ===================
-
-Project has Unit test
 =================== 
 
 Installation pod install
