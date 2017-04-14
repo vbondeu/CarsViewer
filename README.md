@@ -17,12 +17,9 @@ VIPER is an approach to iOS application architecture, which stands for:
  
  + Entity (Data)
  
-===================
 
 Installation 
 ------------
 + pod install
-
-=================== 
 
 Contacts vbond.eu@gmail.com
